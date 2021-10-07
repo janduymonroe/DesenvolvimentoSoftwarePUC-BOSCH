@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "ImprimeDiagonalMatriz/1.0.0": {
+        "runtime": {
+          "ImprimeDiagonalMatriz.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ImprimeDiagonalMatriz/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
