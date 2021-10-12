@@ -6,6 +6,7 @@
 </ul>
 <h1>C#</h1>
 <ol>
-<li>Conceitos Iniciais - Contém exercícios com conceitos iniciais. Por motivos diáticos não há preocupação com tratamento de exceções.
+<li>Conceitos Iniciais - Contém exercícios com conceitos iniciais. (Por motivos diáticos não há preocupação com tratamento de exceções.)
+<li>POO - Conceitos básicos de orientação a objetos em C#.
 </ol>
 
