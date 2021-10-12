@@ -2,11 +2,11 @@ namespace Carro
 {
     class Carro{
 
-        int ano;
-        string placa;
-        string marca;
-        string cor;
-        bool motorLigado;
+        public int ano {get;set;}
+        public string placa {get; set;}
+        public string marca {get;set;}
+        public string cor {get;set;}
+        bool motorLigado{get;set;}
 
         public void ligarMotor(){
             motorLigado = true;
@@ -20,6 +20,12 @@ namespace Carro
         } 
         public void desligarMotor(){
             motorLigado = false;
+        }
+
+        public override string ToString()
+        {
+            var motor = motorLigado ? "ligado" : "desligado";
+            return $"O seu carro {marca}, ano {ano}, cor {cor}, placa {placa} está {motor}.";
         }
 
     }
