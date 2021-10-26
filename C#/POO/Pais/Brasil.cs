@@ -7,7 +7,7 @@ namespace Pais {
 
         public Brasil()
         {
-            codigo = "076";
+            codigoISO = "076";
             nome = "Brasil";
             populacao = 202768562;
             dimensao = 8515767.049;

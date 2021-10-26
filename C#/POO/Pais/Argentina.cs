@@ -7,7 +7,7 @@ namespace Pais {
 
         public Argentina()
         {
-            codigo = "032";
+            codigoISO = "032";
             nome = "Argentina";
             populacao = 45605826;
             dimensao = 2780400.00;
