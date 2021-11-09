@@ -1,0 +1,10 @@
+ //SqlParameter p1 = new SqlParameter("@nome", nomeDigitado);
+            //comando.Parameters.Add(new SqlParameter("@nome", p1));
+            //SqlDataReader leitor = comando.ExecuteReader(CommandBehavior.CloseConnection);
+            
+            while(leitor.Read())
+            {
+                string nome = (string)leitor["nome"];
+                System.Console.WriteLine(nome);
+            };
+            leitor.Close();
